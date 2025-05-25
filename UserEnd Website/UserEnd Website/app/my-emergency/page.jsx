@@ -1,0 +1,22 @@
+import Emergency from "@/components/Emergency";
+import React from "react";
+
+const Page = () => {
+  return (
+    <div
+      style={{ backgroundImage: "url(bgg.jpg)" }}
+      className="w-screen h-screen bg-cover bg-center flex items-center justify-center"
+    >
+      <div
+        style={{ backgroundImage: "url(main-bg.jpg)" }}
+        className="h-[60%] w-[60%] relative bg-cover bg-center rounded-xl border border-white"
+      >
+        <div className="absolute right-60 bottom-16 w-[60%] md:w-[40%]">
+          <Emergency />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Page;

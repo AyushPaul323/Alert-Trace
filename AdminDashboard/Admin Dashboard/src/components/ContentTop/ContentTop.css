@@ -1,0 +1,73 @@
+/* main content top */
+.main-content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+/* Sidebar toggler */
+.sidebar-toggler {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  cursor: pointer; /* Add cursor pointer */
+  transition: transform 0.3s ease; /* Add transition */
+}
+.sidebar-toggler img {
+  width: 20px;
+}
+.sidebar-toggler:hover {
+  transform: scale(1.1); /* Add hover effect */
+}
+
+/* Content top title */
+.content-top-title {
+  color: var(--clr-white);
+  font-size: 20px;
+  font-weight: 600;
+  transition: color 0.3s ease; /* Add transition */
+}
+
+
+/* Content top button */
+.content-top-btn {
+  margin-left: 18px;
+  cursor: pointer; /* Add cursor pointer */
+  transition: transform 0.3s ease; /* Add transition */
+}
+.content-top-btn img {
+  width: 24px;
+}
+.content-top-btn:hover {
+  transform: scale(1.1); /* Add hover effect */
+}
+.content-top-btn img:hover {
+  filter: brightness(0) invert(1); /* Invert image color on hover */
+}
+
+/* Content top left */
+.content-top-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Add animation to main content top */
+@keyframes slide-in {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.main-content-top {
+  animation: slide-in 0.5s ease-out; /* Apply animation */
+}
+.log1222{
+  padding-left: 55vw;
+
+}
