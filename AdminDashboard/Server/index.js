@@ -11,7 +11,7 @@ const PORT = 3001;
 app.use(cors());
 app.use(express.json());
 
-const MONGODB_URI = "mongodb+srv://abirdey712:V2bsNBL9qiierlLa@cluster0.fiv4bfv.mongodb.net/alerttrace_db";
+const MONGODB_URI = "URI";
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
